@@ -9,24 +9,23 @@
    grid-template-rows: auto;
    margin: 92px 49px 92px 51px;
    align-items: center;
-   
    width: 1340px;
    height: 109px;
    
-      /* не забыть убрать backgr*/
+      
 }
 
 .header__logo {
     display: block;
-    width: 148px;
-    height: 105px;
     margin: 0 auto;
-    
 
 }
 
 .header__logo-image {
-    max-width: 100%;
+    width: 148px;
+    height: 105px;
+    padding: 0 auto 4px;
+    
 }
 .header__menu {
     color: #000;
@@ -91,14 +90,17 @@
 /* COVER */
 
 .cover {
+    display: block;
     width: 1440px;
     height: 757px;
     background-image: url(../images/cover.jpg);
     box-sizing: border-box;
-    background-size: 1440px 757px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
     z-index: -1;
+    
 
 }
 
@@ -109,7 +111,6 @@
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
-    line-height: 115%; /* 115px */
     letter-spacing: 30px;
     text-transform: uppercase;
     position: relative;
@@ -126,12 +127,20 @@
     letter-spacing: 60px;
 }
 
-.span-centre {
+.span-left {
+    line-height: 115px;
+}
+
+.span-center {
     text-align: center;
+    line-height: 100px;
+    margin: 20px auto;
 }
 
 .span-right {
     text-align: right;
+    line-height: 100px;
+    margin-right: 0;
 }
 
 /* overlay */
@@ -139,9 +148,8 @@
 .overlay {
     width: 100%;
     height: 100%;
-    background-color: rgb(0 0 0 / .5 );
+    background-color: rgb(0 0 0 / .6 );
     position: relative;
     z-index: 1;
    
-
 }
