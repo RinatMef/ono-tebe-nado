@@ -174,6 +174,7 @@
     z-index: 2;
 }
 
+      /*!!!!!!!!!!!!!!!!!*/
 .cover__description-text {
     color: #FFF;
     font-size: 22px;
@@ -199,5 +200,126 @@
     font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
+
+}
+
+/* lots */
+
+.lots {
+    width: 1340px;
+    height: 579px;
+    margin: 180px auto;
+    
+}
+
+.lots__heading {
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 40px;
+ 
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 25px;
+}
+.lots__card-list {
+    list-style: none;
+    
+}
+
+.lots__card-list-item {
+    width: 430px;
+    height: 450px;
+    list-style: none;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.card-link {
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+.card {
+    min-height: 450px;
+    min-width: 430px;  
+    margin-top: 27px;
+    padding: 50px 40px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    text-decoration: underline;
+    
+}
+
+.card-text {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: bottom;
+    position: relative;
+    z-index: 2;
+}
+
+/* more__look */ 
+
+.more__look {
+    margin: 30px 0 0 40px;
+}
+
+.lots__look-more-link {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-underline-offset: 6px;
+    text-decoration-style: solid;
+    text-decoration-thickness: 1px;
 
 }
