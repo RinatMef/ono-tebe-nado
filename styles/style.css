@@ -139,6 +139,7 @@
 
 .span-right-extra-spacing {
     letter-spacing: 30px;
+
 }
 
 /* overlay */
@@ -170,7 +171,7 @@
     color: #FFF;
     font-size: 22px;
     font-weight: 400;
-    line-height: 28px; 
+    line-height: 28px;
     text-transform: uppercase;
     word-spacing: 18px;
     text-align: center;
@@ -244,14 +245,15 @@
 
 .card {
     min-height: 450px;
-    min-width: 430px;  
+    min-width: 430px;
     margin-top: 27px;
-    padding: 50px 40px; 
+    padding: 50px 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
+
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
     background-repeat: no-repeat;
@@ -299,6 +301,7 @@
 
 .more__look {
     margin: 30px 0 0 40px;
+
 }
 
 .lots__look-more-link {
@@ -327,6 +330,7 @@
     grid-template-columns: 430px 1fr;
     grid-template-rows: auto;
     gap: 25px;
+
 }
 
 .about__logo {
@@ -335,6 +339,7 @@
     height: 240px;
     border-radius: 50%;
     background-color: #000;
+
 }
 
 .about__logo-image {
@@ -352,7 +357,6 @@
     text-transform: uppercase;
     padding: 100px 0px 100px;
     
-
 }
 
 .about__text {
@@ -367,6 +371,7 @@
 
 .about__text:first-of-type {
   margin-bottom: 30px;
+
 }
 
 /* footer */
@@ -420,15 +425,18 @@
     flex-direction: row nowrap;
     justify-content: space-between;
     gap: 48px;
+
 }
 
 .footer__social-list-item {
     width: 48px;
     height: 48px;
+
 }
 
 .footer__social-link {
     list-style: none;
+    
 }
 
 .footer__social-icon {
