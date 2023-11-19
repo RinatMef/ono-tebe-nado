@@ -228,6 +228,7 @@
     grid-template-rows: auto;
     gap: 25px;
 }
+
 .lots__card-list {
     list-style: none;
     
@@ -437,7 +438,6 @@
     font-weight: 400;
     line-height: normal;
 }
-
 
 /* footer social list */
 
